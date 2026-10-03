@@ -82,7 +82,7 @@ Mi objetivo es combinar lógica, buenas prácticas y rendimiento para construir 
 Abierto a colaboraciones, proyectos y desafíos técnicos.
 
 - 📧 Email: [tu_email@gmail.com](mailto:tu_email@gmail.com)
-- 🐙 GitHub: [github.com/Carlos_ht](https://github.com/Carlos_ht)
+- 🐙 GitHub: [github.com/Carlos_ht](https://github.com/Imalafama666)
 
 ---
 
