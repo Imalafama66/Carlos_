@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Tienda y portafolio profesional.">
+  <title>Mi Studio — Diseño para comunidades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav-wrap">
+    <nav class="nav glass">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand-mark">M</span><span id="brandName">MI STUDIO</span>
+      </a>
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#tienda">Tienda</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#reseñas">Reseñas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <a id="discordBtn" class="pill light" href="#" target="_blank" rel="noopener">Discord ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="eyebrow">ESTUDIO CREATIVO • MINECRAFT • DIGITAL</div>
+      <h1 id="heroTitle">Diseño que hace<br>que tu proyecto <span>destaque.</span></h1>
+      <p id="heroText">Diseños, portafolios y recursos digitales creados para comunidades, servidores y creadores.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#tienda">Ver tienda <span>→</span></a>
+        <a class="btn secondary" href="#trabajos">Ver trabajos</a>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <span>LO QUE HACEMOS</span><span class="dot"></span>
+        </div>
+        <div class="hero-preview">
+          <div class="preview-logo">M</div>
+          <div class="preview-copy">
+            <strong id="previewName">MI STUDIO</strong>
+            <small>Diseño • Desarrollo • Creatividad</small>
+          </div>
+        </div>
+        <div class="float-card float-left"><b id="salesMini">0</b><small>VENTAS</small></div>
+        <div class="float-card float-right"><b>5.0</b><small>VALORACIÓN</small></div>
+      </div>
+    </section>
+
+    <section id="tienda" class="section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">TIENDA</div>
+          <h2>Elige lo que necesitas.</h2>
+        </div>
+        <p>Productos y servicios configurables desde el panel de administración.</p>
+      </div>
+      <div id="productsGrid" class="product-grid"></div>
+    </section>
+
+    <section id="trabajos" class="section">
+      <div class="section-head center">
+        <div class="eyebrow">PORTAFOLIO</div>
+        <h2>Trabajos destacados.</h2>
+        <p>Una selección de proyectos publicados y entregados.</p>
+      </div>
+      <div id="projectsGrid" class="projects-grid"></div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="stats">
+        <div><strong id="statSales">0</strong><span>VENTAS</span></div>
+        <div><strong id="statProjects">0</strong><span>PROYECTOS</span></div>
+        <div><strong id="statReviews">0</strong><span>RESEÑAS</span></div>
+        <div><strong id="statRating">5.0</strong><span>VALORACIÓN</span></div>
+      </div>
+    </section>
+
+    <section id="reseñas" class="section">
+      <div class="section-head center">
+        <div class="eyebrow">RESEÑAS</div>
+        <h2>Lo que dicen los clientes.</h2>
+        <p>Opiniones que puedes administrar desde tu panel.</p>
+      </div>
+      <div id="reviewsGrid" class="reviews-grid"></div>
+    </section>
+
+    <section class="section process">
+      <div class="section-head center">
+        <div class="eyebrow">CÓMO TRABAJAMOS</div>
+        <h2>De la idea a la entrega.</h2>
+      </div>
+      <div class="process-grid">
+        <article><span>01</span><h3>Hablamos</h3><p>Definimos qué necesitas, referencias, presupuesto y objetivo.</p></article>
+        <article><span>02</span><h3>Diseñamos</h3><p>Convertimos tu idea en una propuesta visual clara y profesional.</p></article>
+        <article><span>03</span><h3>Revisamos</h3><p>Realizamos ajustes y dejamos todo listo para publicar.</p></article>
+        <article><span>04</span><h3>Entregamos</h3><p>Recibes tus archivos finales y soporte según el servicio.</p></article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section cta">
+      <div class="cta-inner">
+        <div class="eyebrow">SIGUIENTE PASO</div>
+        <h2 id="ctaTitle">¿Empezamos?</h2>
+        <p id="ctaText">Cuéntame qué necesitas y te respondo con precio y disponibilidad.</p>
+        <div class="hero-actions">
+          <a id="ctaDiscord" class="btn primary" href="#" target="_blank" rel="noopener">Abrir Discord ↗</a>
+          <a id="ctaEmail" class="btn secondary" href="mailto:">Enviar correo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a class="brand" href="#inicio"><span class="brand-mark">M</span><span id="footerBrand">MI STUDIO</span></a>
+      <p id="footerText">Diseño y desarrollo para comunidades y creadores.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#tienda">Tienda</a><a href="#trabajos">Trabajos</a><a href="#reseñas">Reseñas</a><a href="#contacto">Contacto</a>
+      <a href="admin.html">Administrar</a>
+    </div>
+    <div class="copyright">© <span id="year"></span> <span id="copyrightName">MI STUDIO</span>. Todos los derechos reservados.</div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
